@@ -104,6 +104,8 @@ pip install -r requirements.txt
 
 ## Dependencies
 
+### Core (required for main analyses and figures)
+
 | Package | Version | Purpose |
 |---------|---------|---------|
 | `mne` | ≥1.6 | EEG data loading, preprocessing, EEGBCI dataset |
@@ -111,8 +113,24 @@ pip install -r requirements.txt
 | `numpy` | ≥1.24 | Numerical computation |
 | `matplotlib` | ≥3.8 | Publication figure generation (300 DPI) |
 | `fooof` (specparam) | ≥1.0 | Aperiodic spectral decomposition (Job 11) |
+| `pandas` | ≥2.1 | Data manipulation and CSV export |
+| `seaborn` | ≥0.13 | Statistical visualization |
+| `scikit-learn` | ≥1.3 | Clustering, PCA, classification |
+| `statsmodels` | ≥0.14 | Statistical tests and regression |
+| `pingouin` | any | Bayesian and effect size statistics |
+| `networkx` | any | Graph analysis (coherence networks) |
+| `Pillow` | ≥10.0 | Image handling for figure composites |
 | `streamlit` | ≥1.30 | Interactive dashboard (`app.py`) |
 | `requests` | ≥2.31 | Dataset downloads (Zenodo) |
+
+### Optional (specific analysis scripts)
+
+| Package | Used by | Purpose |
+|---------|---------|---------|
+| `diptest` | `deep_dive_block*.py` | Hartigan's dip test for bimodality |
+| `hmmlearn` | `hierarchical_state_analysis.py` | Hidden Markov model state analysis |
+| `torch` + `torchvision` | `progressive_vit_experiment.py` | Vision transformer experiment |
+| `runpod` | `create_runpod_pods.py` | RunPod cloud compute orchestration |
 
 ## Reproducing Results
 
