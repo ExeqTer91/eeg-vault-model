@@ -1,0 +1,27 @@
+{
+  "n_subjects": 20,
+  "mean_ratio_by_fs": {
+    "1024": 1.6881185455975216,
+    "512": 1.6881185811625774,
+    "256": 1.6881189033842645,
+    "160": 1.6881205094246883
+  },
+  "std_ratio_by_fs": {
+    "1024": 0.12522414846386878,
+    "512": 0.12522414284499717,
+    "256": 0.12522408759675563,
+    "160": 0.1252236873850296
+  },
+  "within_subject_drift": 1.9638271665067817e-06,
+  "rm_anova_p": 0.10317378945784894,
+  "rm_anova_statistic": 6.180000000000007,
+  "conclusion": "no evidence of sampling-rate-induced drift; between-dataset differences are biological",
+  "limitations": "N=20 subjects, 10s epochs; full dataset may differ",
+  "available_sampling_rates": [
+    1024,
+    512,
+    256,
+    160
+  ],
+  "n_paired": 20
+}

@@ -1,0 +1,25 @@
+{
+  "N_total": 244,
+  "N_with_ta_boundary": 53,
+  "N_with_both_boundaries": 49,
+  "N_with_indiv_ratio": 8,
+  "theta_alpha_boundary": {
+    "mean": 8.385227869564762,
+    "std": 1.189679855138543,
+    "median": 8.63055021271726
+  },
+  "alpha_beta_boundary": {
+    "mean": 15.665163567843981,
+    "std": 2.5271774292710023
+  },
+  "fixed_vs_indiv": {
+    "fixed_mean": null,
+    "indiv_mean": null,
+    "r": null,
+    "shift": null
+  },
+  "boundary_ratios": {
+    "mean": 1.8830976154912678,
+    "std": 0.37503234936984126
+  }
+}

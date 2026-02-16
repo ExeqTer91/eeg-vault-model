@@ -1,0 +1,33 @@
+{
+  "aic_parabolic_corrugated": -395.7265613506876,
+  "aic_trapezoidal_corrugated": -393.15902968071146,
+  "aic_skew_normal": -394.3455439597435,
+  "bic_parabolic_corrugated": -374.74355199892835,
+  "bic_trapezoidal_corrugated": -365.18168387836585,
+  "bic_skew_normal": -383.8540392838639,
+  "delta_aic_trap_vs_parab": 2.5675316699761197,
+  "delta_bic_trap_vs_parab": 9.561868120562508,
+  "nll_parabolic": -203.8632806753438,
+  "nll_trapezoidal": -204.57951484035573,
+  "second_derivative_1.75_1.85": 93.87663980603106,
+  "ks_uniform_main_well": {
+    "statistic": 0.061512477378682484,
+    "p_value": 0.8966200065554778,
+    "n_subjects": 82
+  },
+  "shelf_bounds": [
+    1.7408145805902775,
+    1.8326776743594295
+  ],
+  "trapezoidal_params": {
+    "x_left": 1.7408145805902775,
+    "x_right": 1.8326776743594295,
+    "k_left": 136.8496375617177,
+    "k_right": 267.6328610303324,
+    "A_phi": 2.060544897237242,
+    "A_e1": -0.08904083868653426,
+    "V_shelf": -0.016999354361589968,
+    "T": 1.5865786440494694
+  },
+  "interpretation": "Parabolic wins (or comparable)"
+}

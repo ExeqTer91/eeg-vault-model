@@ -1,0 +1,11 @@
+{
+  "n_subjects": 35,
+  "n_windows": 10,
+  "icc_ratio": 0.6383021790854824,
+  "icc_pci": 0.5990205186219193,
+  "within_subject_sd": 0.05481803091438678,
+  "between_subject_sd": 0.0878242928246855,
+  "split_half_r": 0.9389029883519296,
+  "split_half_p": 7.570504922413865e-17,
+  "mean_pci_sign_stability": 0.86
+}

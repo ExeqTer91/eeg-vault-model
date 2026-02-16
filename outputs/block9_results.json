@@ -1,0 +1,130 @@
+{
+  "9A": {
+    "n_ratios": 4,
+    "n_subjects_multi_peak": 4,
+    "mean_ratio": 2.312304645063482,
+    "median_ratio": 2.312304645063482,
+    "pct_within_10_phi": 0.0,
+    "null_pct": 7.82,
+    "mean_phi_error_pct": 42.90828630375617,
+    "poi_correlation": null
+  },
+  "9B_widths": {
+    "n": 4,
+    "mean": 3.8071022020110385,
+    "phi_error_pct": 135.29185595599466,
+    "pct_near_phi": 0.0
+  },
+  "9B_qfactors": {
+    "n": 8,
+    "mean_q": 2.4959784901157507,
+    "distribution": {
+      "phi^2": 4,
+      "phi": 4
+    }
+  },
+  "9C": {
+    "n_subjects": 19,
+    "mean_phi_int_ratio": 0.9010191311980499,
+    "pct_phi_dominant": 31.57894736842105,
+    "t_vs_1": -2.24548678538562,
+    "p_vs_1": 0.03753379079545414
+  },
+  "9D": {
+    "n_ratios": 4,
+    "mean_abs_residual": 0.25805615635892587,
+    "null_mean_abs_residual": 0.2737644152975301,
+    "ratio_real_null": 0.94262125367341,
+    "ks_stat": 0.5,
+    "ks_p": 0.7714285714285716
+  },
+  "9E": {
+    "mean_slope": 1.4508165452302926,
+    "closest_target": "phi",
+    "closest_error": 0.16721744346970735,
+    "slope_ratios": {
+      "delta/theta": 1.622219064743412,
+      "theta/alpha": 11.615225765989731,
+      "alpha/beta": 1.231474536147219,
+      "beta/gamma": 0.22740867293886255
+    }
+  },
+  "9F": {
+    "theta-alpha": {
+      "mean_deg": 8.245378530115486,
+      "golden_angle_error_deg": 129.262385522543,
+      "rayleigh_z": 67.42436835027459,
+      "rayleigh_p": 6.062696013689293e-29,
+      "circular_std_deg": 57.56299480676688
+    },
+    "alpha-beta": {
+      "mean_deg": 4.605698243507866,
+      "golden_angle_error_deg": 132.90206580915063,
+      "rayleigh_z": 139.83737435495084,
+      "rayleigh_p": 5.639368579421361e-59,
+      "circular_std_deg": 30.311345902477772
+    },
+    "theta-beta": {
+      "mean_deg": 193.63852030233457,
+      "golden_angle_error_deg": 28.85371564500693,
+      "rayleigh_z": 1.9360080246392075,
+      "rayleigh_p": 0.14430325389326878,
+      "circular_std_deg": 122.34665103401701
+    }
+  },
+  "9G": {
+    "n_subjects": 19,
+    "mean_error_personal": 37.703946899344125,
+    "mean_error_fixed": 34.918024099672614,
+    "personal_better_pct": 10.526315789473683,
+    "t_personal_vs_fixed": 7.169988949306977,
+    "p_personal_vs_fixed": 1.1242500151081841e-06,
+    "accuracy_vs_pci_r": -0.5286745454565763,
+    "accuracy_vs_pci_p": 0.019956126543285577,
+    "per_band_error": {
+      "theta": 16.426495023629833,
+      "beta": 13.731043610300901,
+      "delta": 98.49533686714422,
+      "gamma": 22.162912096301557
+    }
+  },
+  "9H": {
+    "n_subjects": 19,
+    "mean_iaf": 10.668998891056006,
+    "peak_positions": [
+      0.12935871743486976,
+      0.9824649298597196,
+      1.8653306613226455
+    ],
+    "peak_phi_matches": [
+      {
+        "peak_pos": 0.12935871743486976,
+        "nearest_phi": "1/phi^2 (delta)",
+        "target": 0.3819660112736623,
+        "error": 0.25260729383879255,
+        "pct_error": 66.1334481035304
+      },
+      {
+        "peak_pos": 0.9824649298597196,
+        "nearest_phi": "1 (alpha)",
+        "target": 1.0,
+        "error": 0.01753507014028044,
+        "pct_error": 1.753507014028044
+      },
+      {
+        "peak_pos": 1.8653306613226455,
+        "nearest_phi": "phi (beta)",
+        "target": 1.6180339887,
+        "error": 0.24729667262264554,
+        "pct_error": 15.283774899026357
+      }
+    ],
+    "mean_peak_alignment_error_pct": 27.723576672194934
+  },
+  "notable_findings": [
+    "*** DISCOVERY CRITERION MET: 9F theta-alpha phase at golden angle, p=0.000000 ***",
+    "*** DISCOVERY CRITERION MET: 9F alpha-beta phase at golden angle, p=0.000000 ***",
+    "*** DISCOVERY CRITERION MET: 9G personal IAF phi-ladder vs fixed, p=0.000001 ***",
+    "*** NOTABLE EFFECT: 9G phi-ladder accuracy vs PCI, d=-0.529 ***"
+  ]
+}

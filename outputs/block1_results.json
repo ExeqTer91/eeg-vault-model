@@ -1,0 +1,24 @@
+{
+  "n_surrogates": 200,
+  "dataset_a": {
+    "label": "alpha_s",
+    "n": 19,
+    "z_score": -6.443,
+    "p_phi": 0.0,
+    "p_pci": 0.0,
+    "note": "Both phi-proximity and PCI rate significant"
+  },
+  "dataset_b": {
+    "label": "alpha_subj",
+    "n": 18,
+    "z_score": -6.883,
+    "p_phi": 0.0,
+    "p_pci": 0.0,
+    "note": "Both phi-proximity and PCI rate significant"
+  },
+  "combined": {
+    "label": "combined",
+    "n": 37,
+    "note": "Not completed due to timeout, but both components significant independently"
+  }
+}

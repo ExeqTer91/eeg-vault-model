@@ -1,0 +1,18 @@
+{
+  "method": "phase_velocity_classification_gap_heuristic",
+  "gap_ratio_criterion": "5x median gap",
+  "locked_fraction_natural_at_xc": 0.8654000000000002,
+  "locked_fraction_cluster_at_xc": 0.6240000000000001,
+  "xc_used": 1.7055501878948751,
+  "diff_from_phi_inv_natural": 0.24736601125010538,
+  "diff_from_1_over_e_natural": 0.49752055882855784,
+  "diff_from_half_natural": 0.36540000000000017,
+  "crossings_phi_inv_natural": [],
+  "crossings_inv_e_natural": [],
+  "crossings_half_natural": [],
+  "n_bimodal_total": 244,
+  "pct_bimodal": 97.6,
+  "phase_velocity_bimodal_at_e1": true,
+  "internal_phase_spread_at_e1": 155.7005998473696,
+  "internal_coherence_at_e1": 0.20654173572157963
+}

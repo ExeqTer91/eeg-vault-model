@@ -1,0 +1,20 @@
+{
+  "n_subjects": 37,
+  "win_sec": 4,
+  "overlap": 0.5,
+  "mean_pct_phi_org": 48.6686760992701,
+  "sd_pct_phi_org": 23.6967752104222,
+  "mean_pci_variability": 1.4175905216633862,
+  "mean_pci_autocorr": 0.3677452320330972,
+  "mean_transition_rate": 0.2485498063731222,
+  "mean_dwell_phi_windows": 4.220077569024937,
+  "mean_dwell_harm_windows": 4.1292904779746875,
+  "mean_dwell_phi_sec": 8.440155138049874,
+  "mean_dwell_harm_sec": 8.258580955949375,
+  "var_vs_pci_r": 0.12884870997903247,
+  "var_vs_pci_p": 0.4472353962621886,
+  "var_vs_ratio_r": -0.15926485493091336,
+  "var_vs_ratio_p": 0.3464239707191484,
+  "var_vs_pct_r": 0.17634452170763176,
+  "var_vs_pct_p": 0.2964597720234712
+}

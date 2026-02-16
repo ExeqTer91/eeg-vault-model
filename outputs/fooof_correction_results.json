@@ -1,0 +1,461 @@
+{
+  "N_total_subjects": 109,
+  "N_periodic_valid": 42,
+  "N_matched_pairs": 42,
+  "attrition": {
+    "EEGBCI": {
+      "total": 109,
+      "both_peaks": 42,
+      "theta_only": 16,
+      "alpha_only": 34,
+      "neither": 17
+    }
+  },
+  "periodic_distribution": {
+    "mean": 1.6671853373924024,
+    "std": 0.37796235988675764,
+    "median": 1.5587776610563673,
+    "skewness": 1.3004470342062173,
+    "kurtosis": 1.3486386199102514
+  },
+  "shift_from_raw": {
+    "raw_mean": 1.7680935001878222,
+    "periodic_mean": 1.6671853373924024,
+    "shift": -0.10090816279541981
+  },
+  "aic_periodic": {
+    "e\u22121": {
+      "aic": 40.222809722704426,
+      "sigma": 0.38140057274536227,
+      "mu": 1.718281828459045
+    },
+    "\u221a\u03c0": {
+      "aic": 42.599940520797844,
+      "sigma": 0.3923480666811389,
+      "mu": 1.7724538509055159
+    },
+    "7/4": {
+      "aic": 41.43158875777626,
+      "sigma": 0.3869286934746209,
+      "mu": 1.75
+    },
+    "\u221a3": {
+      "aic": 40.681301197853415,
+      "sigma": 0.3834880372480764,
+      "mu": 1.7320508075688772
+    },
+    "\u221ae": {
+      "aic": 39.562253607512034,
+      "sigma": 0.3784130907486997,
+      "mu": 1.6487212707001282
+    },
+    "e/\u03c6": {
+      "aic": 39.51032207600498,
+      "sigma": 0.378179215772791,
+      "mu": 1.679990560988901
+    },
+    "\u03c6": {
+      "aic": 40.16647135191503,
+      "sigma": 0.38114485509389234,
+      "mu": 1.618033988749895
+    },
+    "empirical": {
+      "aic": 39.46214090064682,
+      "sigma": 0.37796235988675764,
+      "mu": 1.6671853373924024
+    }
+  },
+  "best_periodic_aic": "empirical",
+  "winner_periodic": {
+    "e\u22121": 2,
+    "\u221a\u03c0": 10,
+    "7/4": 3,
+    "\u221a3": 1,
+    "\u221ae": 2,
+    "e/\u03c6": 1,
+    "\u03c6": 23,
+    "empirical": 0
+  },
+  "all_periodic_ratios": [
+    1.5252259993802348,
+    2.895241238384882,
+    1.4426791909123875,
+    1.9643201365344973,
+    1.3600453040529163,
+    1.7565873113886579,
+    1.7254804310813807,
+    2.0445512041057956,
+    1.6014341454494185,
+    1.4843543119072875,
+    1.3472600636982786,
+    1.553337101692119,
+    1.3361975083806297,
+    1.7157877447680239,
+    2.5350644497400094,
+    1.3445929918461799,
+    1.2523873447252483,
+    2.0509931895187004,
+    1.355547832220702,
+    1.36307129713066,
+    2.015415195865685,
+    1.5642182204206156,
+    1.8375195056272275,
+    1.5159248027627206,
+    1.2051667442458613,
+    1.3297638925582393,
+    1.752894825306815,
+    1.3794241563363898,
+    1.3442640782445239,
+    2.277474215590629,
+    1.7522230273140758,
+    1.4104893064025645,
+    1.4597151438359464,
+    1.3660484847718997,
+    1.7062813173201143,
+    2.3273537050001933,
+    1.6421340291823041,
+    1.683653634255197,
+    1.2186975745446003,
+    2.3849260321088623,
+    1.5500634304156953,
+    1.6439740514527366
+  ],
+  "fooof_details": [
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.5252259993802348,
+      "raw_ratio": 1.6728559719253953,
+      "theta_peak": 6.653351165761439,
+      "alpha_peak": 10.147864181026142,
+      "aperiodic_slope": 1.5922133177757551
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 2.895241238384882,
+      "raw_ratio": 1.842066520252543,
+      "theta_peak": 4.026716284206477,
+      "alpha_peak": 11.658315041310532,
+      "aperiodic_slope": 1.623623382862767
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.4426791909123875,
+      "raw_ratio": 1.7106316853690302,
+      "theta_peak": 7.409280004461625,
+      "alpha_peak": 10.689214082080028,
+      "aperiodic_slope": 0.9628007578265502
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.9643201365344973,
+      "raw_ratio": 1.7374310097107555,
+      "theta_peak": 4.589025949351958,
+      "alpha_peak": 9.01431607939139,
+      "aperiodic_slope": 1.3395248884985076
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.3600453040529163,
+      "raw_ratio": 1.6400942629840964,
+      "theta_peak": 7.611348818157101,
+      "alpha_peak": 10.35177921764328,
+      "aperiodic_slope": 1.462571394008917
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.7565873113886579,
+      "raw_ratio": 1.8452680474285597,
+      "theta_peak": 6.261764448425569,
+      "alpha_peak": 10.999335977008952,
+      "aperiodic_slope": 1.9645880715756114
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.7254804310813807,
+      "raw_ratio": 1.8844699668071891,
+      "theta_peak": 6.1479349862041355,
+      "alpha_peak": 10.608141510255814,
+      "aperiodic_slope": 2.0977424639332005
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 2.0445512041057956,
+      "raw_ratio": 1.7609629429100753,
+      "theta_peak": 4.247093853768941,
+      "alpha_peak": 8.683400852673612,
+      "aperiodic_slope": 1.8751434321587712
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.6014341454494185,
+      "raw_ratio": 1.6786874124427902,
+      "theta_peak": 6.17180073103203,
+      "alpha_peak": 9.883732429584375,
+      "aperiodic_slope": 1.234282719010606
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.4843543119072875,
+      "raw_ratio": 1.6795727226708728,
+      "theta_peak": 6.568512593670899,
+      "alpha_peak": 9.74999999123272,
+      "aperiodic_slope": 1.6037959577872174
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.3472600636982786,
+      "raw_ratio": 1.7541282688454456,
+      "theta_peak": 7.266230743315551,
+      "alpha_peak": 9.7895024940857,
+      "aperiodic_slope": 1.7436443264556236
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.553337101692119,
+      "raw_ratio": 1.70670892435073,
+      "theta_peak": 6.224292162673068,
+      "alpha_peak": 9.668423948051554,
+      "aperiodic_slope": 1.4252650261304525
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.3361975083806297,
+      "raw_ratio": 1.7425992827089456,
+      "theta_peak": 7.402131162924772,
+      "alpha_peak": 9.890709216606693,
+      "aperiodic_slope": 1.7585179215766635
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.7157877447680239,
+      "raw_ratio": 1.7859420086203313,
+      "theta_peak": 7.148055110576346,
+      "alpha_peak": 12.264545357653336,
+      "aperiodic_slope": 1.7280148451032766
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 2.5350644497400094,
+      "raw_ratio": 1.8024038743207063,
+      "theta_peak": 4.496113993436642,
+      "alpha_peak": 11.397938746739817,
+      "aperiodic_slope": 1.5010141968551771
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.3445929918461799,
+      "raw_ratio": 1.786299876356229,
+      "theta_peak": 7.253808933705272,
+      "alpha_peak": 9.753420656451318,
+      "aperiodic_slope": 2.209382999612197
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.2523873447252483,
+      "raw_ratio": 1.613704802645728,
+      "theta_peak": 6.455112574623042,
+      "alpha_peak": 8.084301297234713,
+      "aperiodic_slope": 1.385105866342459
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 2.0509931895187004,
+      "raw_ratio": 2.038605813803576,
+      "theta_peak": 6.199602201703591,
+      "alpha_peak": 12.715341893419206,
+      "aperiodic_slope": 1.6936372602317773
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.355547832220702,
+      "raw_ratio": 1.7122318110143449,
+      "theta_peak": 7.141011393935059,
+      "alpha_peak": 9.679982514912002,
+      "aperiodic_slope": 1.491532097815624
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.36307129713066,
+      "raw_ratio": 1.8272998700991914,
+      "theta_peak": 7.304491403125697,
+      "alpha_peak": 9.956542571738298,
+      "aperiodic_slope": 1.6927635496228064
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 2.015415195865685,
+      "raw_ratio": 1.8605051392036107,
+      "theta_peak": 6.447430690655402,
+      "alpha_peak": 12.994249788237687,
+      "aperiodic_slope": 2.178372652704316
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.5642182204206156,
+      "raw_ratio": 1.7733525673253316,
+      "theta_peak": 6.130032509065854,
+      "alpha_peak": 9.588708542451512,
+      "aperiodic_slope": 1.7593133012066229
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.8375195056272275,
+      "raw_ratio": 1.7843471826046302,
+      "theta_peak": 6.047464451327559,
+      "alpha_peak": 11.112333888901649,
+      "aperiodic_slope": 1.2329248863613889
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.5159248027627206,
+      "raw_ratio": 1.7440257906578722,
+      "theta_peak": 6.912654720706641,
+      "alpha_peak": 10.479064744054003,
+      "aperiodic_slope": 1.4933924233953835
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.2051667442458613,
+      "raw_ratio": 1.5086584822696087,
+      "theta_peak": 6.844681523057666,
+      "alpha_peak": 8.24898254654321,
+      "aperiodic_slope": 0.6521833001038575
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.3297638925582393,
+      "raw_ratio": 1.745578244688603,
+      "theta_peak": 7.520131999338437,
+      "alpha_peak": 9.999999999992054,
+      "aperiodic_slope": 2.0510352636197524
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.752894825306815,
+      "raw_ratio": 1.8520738510583776,
+      "theta_peak": 7.414434483849078,
+      "alpha_peak": 12.996723839315456,
+      "aperiodic_slope": 1.7422646686287369
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.3794241563363898,
+      "raw_ratio": 1.9160579156623132,
+      "theta_peak": 7.67421627935745,
+      "alpha_peak": 10.58599931669564,
+      "aperiodic_slope": 1.8540791912235242
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.3442640782445239,
+      "raw_ratio": 1.705669413785433,
+      "theta_peak": 7.435814011736411,
+      "alpha_peak": 9.995697668484562,
+      "aperiodic_slope": 1.6390605183179767
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 2.277474215590629,
+      "raw_ratio": 1.8952673570823235,
+      "theta_peak": 5.018512315214955,
+      "alpha_peak": 11.429532398526092,
+      "aperiodic_slope": 1.9267285264348804
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.7522230273140758,
+      "raw_ratio": 1.7502203109846748,
+      "theta_peak": 6.6896814434428915,
+      "alpha_peak": 11.7218138705963,
+      "aperiodic_slope": 1.715725414623877
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.4104893064025645,
+      "raw_ratio": 1.7264264290960103,
+      "theta_peak": 7.714124918536443,
+      "alpha_peak": 10.880690705849208,
+      "aperiodic_slope": 1.7360113439051874
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.4597151438359464,
+      "raw_ratio": 1.866678647454931,
+      "theta_peak": 5.994320218536684,
+      "alpha_peak": 8.749999999999996,
+      "aperiodic_slope": 1.4565560500403438
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.3660484847718997,
+      "raw_ratio": 1.72691453652005,
+      "theta_peak": 6.716112168920549,
+      "alpha_peak": 9.174534851912034,
+      "aperiodic_slope": 1.6698248287847313
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.7062813173201143,
+      "raw_ratio": 1.783468464275822,
+      "theta_peak": 6.999230158950127,
+      "alpha_peak": 11.942655655840095,
+      "aperiodic_slope": 1.5167449105151516
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 2.3273537050001933,
+      "raw_ratio": 1.920210486819502,
+      "theta_peak": 4.570133110116002,
+      "alpha_peak": 10.636316226172534,
+      "aperiodic_slope": 1.8711323062453862
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.6421340291823041,
+      "raw_ratio": 1.6491817269120796,
+      "theta_peak": 6.208296702818553,
+      "alpha_peak": 10.194855278958645,
+      "aperiodic_slope": 1.85572520032232
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.683653634255197,
+      "raw_ratio": 1.702032359317144,
+      "theta_peak": 5.167237905403794,
+      "alpha_peak": 8.69983887849431,
+      "aperiodic_slope": 1.8361880993540878
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.2186975745446003,
+      "raw_ratio": 1.7805473348456244,
+      "theta_peak": 6.78601915472698,
+      "alpha_peak": 8.270105084678969,
+      "aperiodic_slope": 1.3523376040735167
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 2.3849260321088623,
+      "raw_ratio": 1.882582523390671,
+      "theta_peak": 4.534184624344636,
+      "alpha_peak": 10.813694944987265,
+      "aperiodic_slope": 2.0502528994303555
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.5500634304156953,
+      "raw_ratio": 1.723722868302965,
+      "theta_peak": 6.60248743613265,
+      "alpha_peak": 10.234274324528304,
+      "aperiodic_slope": 1.7066729194296828
+    },
+    {
+      "dataset": "EEGBCI",
+      "periodic_ratio": 1.6439740514527366,
+      "raw_ratio": 1.7404403003644238,
+      "theta_peak": 7.497030667103238,
+      "alpha_peak": 12.324923879663123,
+      "aperiodic_slope": 1.3539809007280952
+    }
+  ]
+}

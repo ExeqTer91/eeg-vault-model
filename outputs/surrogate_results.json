@@ -1,0 +1,11 @@
+{
+  "n_subjects": 35,
+  "n_surrogates": 50,
+  "observed_mean_phi_error": 0.19200682312531425,
+  "surrogate_mean_phi_error": 0.2138422530648975,
+  "z_score": -4.481016335090127,
+  "p_phi_proximity": 0.0,
+  "observed_pci_rate": 45.714285714285715,
+  "surrogate_pci_rate": 35.88571428571428,
+  "p_pci_rate": 0.02
+}

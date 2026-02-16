@@ -1,0 +1,10 @@
+{
+  "real_delta_aic": -4.331541625496357,
+  "random_delta_aic_mean": 0.32457874168213774,
+  "random_delta_aic_median": 1.9091521228832562,
+  "random_delta_aic_std": 4.13588461446433,
+  "percentile_rank": 81.2,
+  "p_value": 0.188,
+  "n_permutations": 1000,
+  "interpretation": "phi/e-1 placement DAIC=-4.33, better than 81.2% of random (p=0.1880)"
+}

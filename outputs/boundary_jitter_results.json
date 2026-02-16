@@ -1,0 +1,13 @@
+{
+  "n_subjects": 19,
+  "n_perturbations": 500,
+  "jitter_sd_hz": 0.5,
+  "median_classification_stability": 0.674,
+  "mean_classification_stability": 0.7185263157894736,
+  "subjects_stability_ge_80": 5,
+  "subjects_stability_ge_90": 3,
+  "mean_ratio_cv_pct": 6.456111112979368,
+  "standard_pci_rate": 63.1578947368421,
+  "mean_perturbed_pci_rate": 59.34736842105263,
+  "grand_mean_perturbed_ratio": 1.7769219373541378
+}

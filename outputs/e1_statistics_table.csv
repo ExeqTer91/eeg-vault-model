@@ -1,0 +1,28 @@
+Test,Comparison,N,Statistic,p_value,Effect_size,CI_lower,CI_upper,Survives_correction
+t-test vs e-1,mean alpha/theta vs 1.7183,244,8.6781,5.90254e-16,0.5556,1.7648,1.7919,No (rejected)
+t-test vs phi,mean alpha/theta vs 1.6180,244,23.1704,1.81815e-63,1.4833,1.7648,1.7919,Yes
+TOST vs e-1 (tight ±0.05),equivalence to 1.7183,244,NA,0.925812,NA,1.7283,1.8283,No
+TOST vs e-1 (moderate ±0.10),equivalence to 1.7183,244,NA,1.15063e-08,NA,1.6783,1.8783,Yes
+Bayesian BF01 e-1,support for mean=e-1,244,0.0000,NA,NA,NA,NA,NA
+Bayesian BF01 phi,support for mean=phi,244,0.0000,NA,NA,NA,NA,NA
+t-test vs e-1 (Alpha_Waves),Alpha_Waves mean vs e-1,37,NA,2.47831e-05,0.7950,NA,NA,No
+t-test vs e-1 (OpenNeuro_ds003969),OpenNeuro_ds003969 mean vs e-1,98,NA,0.016743,0.2459,NA,NA,No
+t-test vs e-1 (PhysioNet_EEGBCI),PhysioNet_EEGBCI mean vs e-1,109,NA,4.23523e-13,0.7901,NA,NA,No
+TOST theta/delta vs 2,theta/delta equivalence to 2.000,244,NA,1,1.8524,NA,NA,No
+TOST alpha/theta vs e-1,alpha/theta equivalence to 1.718,244,NA,1.15063e-08,0.5556,NA,NA,Yes
+TOST beta/alpha vs 2,beta/alpha equivalence to 2.000,244,NA,0.000746748,-0.4118,NA,NA,Yes
+TOST gamma/beta vs e-1,gamma/beta equivalence to 1.718,244,NA,0.871047,0.9203,NA,NA,No
+Skip-1 alpha/delta vs phi^2,alpha/delta vs 2.618,244,NA,NA,1.1804,NA,NA,NA
+Skip-1 alpha/delta vs e,alpha/delta vs 2.718,244,NA,NA,1.1000,NA,NA,NA
+Skip-1 beta/theta vs phi^2,beta/theta vs 2.618,244,NA,NA,0.3126,NA,NA,NA
+Skip-1 beta/theta vs e,beta/theta vs 2.718,244,NA,NA,0.2642,NA,NA,NA
+Skip-1 gamma/alpha vs phi^2,gamma/alpha vs 2.618,244,NA,NA,0.3436,NA,NA,NA
+Skip-1 gamma/alpha vs e,gamma/alpha vs 2.718,244,NA,NA,0.2940,NA,NA,NA
+Surrogate e-1,real proximity vs shuffled,244,-3.3521,0.0001,NA,NA,NA,Yes
+Surrogate phi,real proximity vs shuffled,244,-0.7508,0.2258,NA,NA,NA,No
+GMM BIC k=1,single component,244,-383.4346,NA,NA,NA,NA,NA
+GMM BIC k=2,two components,244,-370.9320,NA,NA,NA,NA,NA
+AIC phi-attractor,SSE to phi,244,-800.3518,NA,NA,NA,NA,NA
+AIC e-1-attractor,SSE to e-1,244,-1018.9999,NA,NA,NA,NA,NA
+Cochran's Q heterogeneity,cross-dataset consistency,244,0.1937,0.907684,NA,NA,NA,Yes
+ANOVA ratio vs sampling rate,effect of fs,244,5.9199,0.000652493,NA,NA,NA,No
