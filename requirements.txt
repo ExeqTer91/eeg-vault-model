@@ -1,3 +1,4 @@
+# Core dependencies (required for main analyses and figure generation)
 mne>=1.6
 scipy>=1.11
 numpy>=1.24
@@ -5,3 +6,17 @@ matplotlib>=3.8
 fooof>=1.0
 streamlit>=1.30
 requests>=2.31
+pandas>=2.1
+seaborn>=0.13
+scikit-learn>=1.3
+statsmodels>=0.14
+pingouin
+networkx
+Pillow>=10.0
+
+# Optional: used by specific analysis scripts
+# diptest              # Hartigan's dip test (deep_dive scripts)
+# hmmlearn             # Hidden Markov models (state analysis)
+# torch                # PyTorch (progressive_vit_experiment.py)
+# torchvision          # PyTorch vision (progressive_vit_experiment.py)
+# runpod               # RunPod cloud compute (create_runpod_pods.py)
